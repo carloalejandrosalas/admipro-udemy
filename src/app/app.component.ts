@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'admin-pro';
+  tareas = [{
+    titulo: 'Terminar curso de Angular Avanzado',
+    completed: false,
+    fecha_registrado: 1558312976791
+  }];
 }

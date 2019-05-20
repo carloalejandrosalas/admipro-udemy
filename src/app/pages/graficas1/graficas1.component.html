@@ -1,3 +1,28 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+
+  <div class="col-6">
+    <app-grafico-dona [chart-leyend]="graficos.grafico1.leyenda" [chart-labels]="graficos.grafico1.labels" [chart-data]="graficos.grafico1.data">
+    </app-grafico-dona>
+  </div>
+
+  <div class="col-6">
+    <app-grafico-dona [chart-leyend]="graficos.grafico2.leyenda" [chart-labels]="graficos.grafico2.labels" [chart-data]="graficos.grafico2.data">
+    </app-grafico-dona>
+
+
+  </div>
+
+  <div class="col-6">
+
+    <app-grafico-dona [chart-leyend]="graficos.grafico3.leyenda" [chart-labels]="graficos.grafico3.labels" [chart-data]="graficos.grafico3.data">
+    </app-grafico-dona>
+
+  </div>
+
+  <div class="col-6">
+    <app-grafico-dona [chart-leyend]="graficos.grafico4.leyenda" [chart-labels]="graficos.grafico4.labels" [chart-data]="graficos.grafico4.data">
+    </app-grafico-dona>
+
+  </div>
+
+</div>
