@@ -18,6 +18,7 @@ import { SharedModule } from "../shared/shared.module";
 
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { PAGES_ROUTES } from './pages.routes';
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,

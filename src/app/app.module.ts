@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { PagesModule  } from "./pages/pages.module";
 import { FormsModule } from '@angular/forms';
+import { ServiceModule } from "./services/service.module";
 
 // Componentes principales
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { RegisterComponent } from './login/register.component';
     PagesModule,
     AppRoutingModule,
     FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

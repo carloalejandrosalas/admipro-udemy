@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SettingsService } from './services/service.index';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  tareas = [{
-    titulo: 'Terminar curso de Angular Avanzado',
-    completed: false,
-    fecha_registrado: 1558312976791
-  }];
+  constructor( public _ajustes: SettingsService ) {}
 }
