@@ -8,6 +8,7 @@ import { GraficoDonaComponent } from "../components/grafico-dona/grafico-dona.co
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { PromesasComponent } from './promesas/promesas.component';
 
 // Modulos requeridos
 import { FormsModule } from "@angular/forms";
@@ -19,6 +20,7 @@ import { SharedModule } from "../shared/shared.module";
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +30,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graficas1Component,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         PagesComponent,
@@ -36,7 +40,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        PromesasComponent
     ],
     imports: [
         SharedModule,
